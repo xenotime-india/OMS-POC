@@ -1,0 +1,43 @@
+{
+  "name": "OMS-POC",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "~27.0.0",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@shoutem/ui": "^0.23.4",
+    "bluebird": "^3.5.1",
+    "expo": "^27.0.1",
+    "knex": "^0.15.2",
+    "pouchdb-adapter-react-native-sqlite": "^1.0.3",
+    "pouchdb-react-native": "^6.4.1",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.10.0",
+    "react-navigation-redux-helpers": "^2.0.5",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.6.1",
+    "redux-persist": "^5.10.0",
+    "redux-persist-sqlite-storage": "^1.0.4",
+    "redux-pouchdb": "^1.0.0-rc.1",
+    "redux-pouchdb-plus": "^0.11.1",
+    "redux-thunk": "^2.3.0"
+  }
+}
